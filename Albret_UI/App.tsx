@@ -1,0 +1,14 @@
+import { StatusBar } from 'expo-status-bar';
+import React from 'react';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import RootNavigator from './src/navigation/RootNavigator';
+import 'react-native-gesture-handler';
+
+export default function App() {
+    return (
+        <SafeAreaProvider>
+            <RootNavigator />
+            <StatusBar style="auto" />
+        </SafeAreaProvider>
+    );
+}

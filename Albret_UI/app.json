@@ -1,0 +1,41 @@
+{
+    "expo": {
+        "name": "Water Tank Monitor",
+        "slug": "water-tank-monitor",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "userInterfaceStyle": "automatic",
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "com.watertank.monitor"
+        },
+        "android": {
+            "package": "com.watertank.monitor",
+            "permissions": [
+                "android.permission.INTERNET",
+                "android.permission.ACCESS_NETWORK_STATE",
+                "android.permission.RECEIVE_BOOT_COMPLETED",
+                "android.permission.VIBRATE"
+            ]
+        },
+        "web": {},
+        "plugins": [
+            [
+                "expo-notifications",
+                {
+                    "color": "#0066cc"
+                }
+            ]
+        ],
+        "extra": {
+            "supabaseUrl": "https://cqgaapheftzunhsawzaf.supabase.co",
+            "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNxZ2FhcGhlZnR6dW5oc2F3emFmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzAzNDcwODMsImV4cCI6MjA4NTkyMzA4M30.PdtebnICt6V5Fd1-utEYw0P9QZ58UJr7bOPD-Cto-EU",
+            "eas": {
+                "projectId": "your-project-id"
+            }
+        }
+    }
+}
